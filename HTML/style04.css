@@ -1,0 +1,19 @@
+body{
+    background-color: #c1f0f0;
+}
+
+.line{
+    width: 50%;
+}
+
+.heading {
+    text-align: center;
+}
+
+.info {
+    font-size: 14
+}
+
+.course{
+    text-align: center;
+}
