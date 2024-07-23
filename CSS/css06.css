@@ -27,7 +27,7 @@
     display: inline-block;
     color: white;
     padding: 12px;
-    /* margin: aut; */
+    /* margin: 5px; */
 }
 .menu_content{
     margin: 16px 20px;
@@ -54,4 +54,23 @@
 
 .img img{
     width: 100%;
+}
+
+.footer{
+    width: 100%;
+}
+
+.reg_button{
+    background-color:#03cafc ;
+    border:0;
+    border-radius: 10px;
+    color: white;
+    padding: 0  30px;
+    font-weight: bold;
+}
+
+.reg_button:hover{
+    cursor: pointer;
+    background-color:#1f7b92 ;
+
 }
