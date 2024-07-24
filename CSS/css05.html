@@ -13,7 +13,10 @@
     text-align: center;
     line-height: 100px;
     align-items: center;
-    animation: bannerChange 5s infinite;
+    /* font-size: 2em; */
+    animation: bannerChange 10s infinite;
+    text-shadow: 5px 5px 8px grey;
+
 }
 
 @keyframes bannerChange{
@@ -21,19 +24,19 @@
         background-color: blue;
         font-size: 1em
     } 
-    0%{
+    25%{
         background-color: rgb(55, 123, 168);
         font-size: 1.5em
     } 
-    0%{
+    50%{
         background-color: rgb(194, 57, 141);
         font-size: 2em;
     } 
-    0%{
+    75%{
         background-color: rgb(235, 59, 59);
         font-size: 1.5em
     } 
-    0%{
+    100%{
         background-color: rgb(219, 35, 188);
         font-size: 1em
     } 
